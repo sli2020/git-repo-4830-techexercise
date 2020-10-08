@@ -52,7 +52,7 @@ public class SimpleFormInsertLi extends HttpServlet {
       // Set response content type
       response.setContentType("text/html");
       PrintWriter out = response.getWriter();
-      String title = "Insert Contact to Contact List";
+      String title = "Insert Contact to the Contact List";
       String docType = "<!doctype html public \"-//w3c//dtd html 4.0 " + "transitional//en\">\n";
       out.println(docType + //
             "<html>\n" + //
